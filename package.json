@@ -1,0 +1,23 @@
+{
+  "name": "capetrel-wp-rgpd",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cp -R node_modules/tarteaucitronjs assets/js/tarteaucitronjs && rm -rf assets/js/tarteaucitronjs/.github"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/capetrel/capetre-wp-rgpd.git"
+  },
+  "author": "capetrel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/capetrel/capetre-wp-rgpd/issues"
+  },
+  "homepage": "https://github.com/capetrel/capetre-wp-rgpd#readme",
+  "dependencies": {
+    "tarteaucitronjs": "^1.9.3"
+  }
+}
