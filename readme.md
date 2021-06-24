@@ -15,4 +15,4 @@ npm update & npm run build
 ```
 
 ### services
-La mise à jours de tarteaucitron ajoute de nouveau services, pour les faire apparaitre dans le backoffices il faut les ajouter une nouvelle entrée dans le tableau ``` $services``` du fichier src/Admin/TacAdmin.php en recupérant le "code" sur le site de [tarteaucitron](https://tarteaucitron.io/fr/install/) et s'inspirant d'un autre service dans le tableau. Sinon il faut ajouter le code du site tarteaucitron.io dans la fenêtre des service dans le backoffice.
+La mise à jours de tarteaucitron ajoute de nouveau services, pour les faire apparaitre dans le backoffices il faut ajouter une nouvelle entrée dans le tableau ``` $services``` du fichier src/Admin/TacAdmin.php en recupérant le "code" sur le site de [tarteaucitron](https://tarteaucitron.io/fr/install/) et s'inspirant d'un autre service dans le tableau. Sinon il faut ajouter le code du site tarteaucitron.io dans la fenêtre des service dans le backoffice.
